@@ -13,7 +13,7 @@ It makes to retire Mackerel Monitors.
 ```
 export MACKEREL_APIKEY=<APIキー>
 ```
-
+
 ## define monitors to retire
 Make monitors-target-name.json file like this on same directory.
 
