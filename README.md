@@ -1,15 +1,20 @@
-# Mackerel Monitors maintainance or working controller
+# Mackerel Monitors Retire
 
 # DESCRIPTION
-It makes to controll maintainance or working of Mackerel Monitors.
-Maintainance is remove and backup monitors.
-Working is restore backuped monitors.
+It makes to retire Mackerel Monitors.
 
 # REQUIREMENT
 * mkr
-* node
+* node.js
 
 # USAGE
+## setup mkr
+
+```
+export MACKEREL_APIKEY=<APIキー>
+```
+
+## define monitors to retire
 Make monitors-target-name.json file like this on same directory.
 
 ```
@@ -17,14 +22,15 @@ Make monitors-target-name.json file like this on same directory.
 ```
 
 # USAGE
-## Update to maintainance Mackerel Monitors
+## Retire Mackerel Monitors
+remove and backup monitors.
 
 ```
 sh update.sh maintainance
 ```
 
-##  Update to working Mackerel Monitors
-
+##  Comeback Mackerel Monitors
+restore monitors backuped.
 ```
 sh update.sh working
 ```
