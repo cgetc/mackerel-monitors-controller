@@ -26,11 +26,11 @@ Make monitors-target-name.json file like this on same directory.
 remove and backup monitors.
 
 ```
-sh update.sh maintainance
+sh update.sh retire
 ```
 
 ##  Comeback Mackerel Monitors
 restore monitors backuped.
 ```
-sh update.sh working
+sh update.sh comeback
 ```
